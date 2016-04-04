@@ -1,0 +1,19 @@
+<head>
+  <title>ReactiveEntries</title>
+</head>
+
+<body>
+  <h1>Welcome to Reactive Entries!</h1>
+
+  {{> nodeForceChart}}
+</body>
+
+<template name="nodeForceChart">
+total count of entries : {{entryCount}}
+
+  <div class="row">
+    <div class="col-md-10">
+      <div class="nodeForceChartContainer"></div>
+    </div>
+  </div>
+</template>

@@ -1,9 +1,11 @@
 RenderNodeForceChart = function(datasource){
-      var w = 960, h = 500;
+      var w = 800, h = 400;
 
 			var labelDistance = 0;
+      var container = ".nodeForceChartContainer";
 
-			var vis = d3.select("body").append("svg:svg").attr("width", w).attr("height", h);
+      $(container).empty();
+			var vis = d3.select(container).append("svg:svg").attr("width", w).attr("height", h);
 
 			var nodes = [];
 			var labelAnchors = [];

@@ -18,13 +18,13 @@ Meteor frontend communicating with an API (which was made with simple:rest atmos
 
 ###### How to see awesomeness:
 
-After starting both apps open a REST client e.g. Chrome's Advanced Rest Client and do POSTs with content-type '''application/json''' in the form of:
-'''
+After starting both apps open a REST client e.g. Chrome's Advanced Rest Client and do POSTs with content-type ```application/json``` in the form of:
+```
 {"author":"blaaa", "content": "hola", "date": "new Date()", "tonality": 1}
-'''
+```
 ... to this endpoint: 
-'''
+```
 http://localhost:3030/methods/addentry
-'''
+```
 
 ..and the chart will update itself on the frontend. 

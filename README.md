@@ -1,16 +1,16 @@
 # reactive-entries
 Meteor frontend communicating with an API (which was made with simple:rest atmosphere package).
 
-Getting up and running on Windows:
+### Getting up and running on Windows:
 
-API: 
+###### API: 
 
 1. Install meteor: https://install.meteor.com/windows
 2. Open a console terminal in the ReactiveEntriesAPI folder
 3. type: meteor run -- port 3030, wait for it to install everything and it will start automatically. 
 4. test that its working by accessing in browser: localhost:3030/publications/entries
 
-Frontend:
+###### Frontend:
 
 1. Open a console terminal in the ReactiveEntries folder
 2. type: meteor, wait for it to install everything 
